@@ -1,0 +1,41 @@
+:root {
+    /* CSS HEX */
+    --imperial-red: #e63946ff;
+    --honeydew: #f1faeeff;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff;
+}
+
+.odd_row {
+    background-color: var(--powder-blue);
+}
+
+.even_row {
+    background-color: var(--honeydew);
+}
+
+.car_block{
+    margin-top: 1%;
+}
+
+table{
+    vertical-align: center;
+    font-size: large;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+table .item-name{
+    width: 20%;
+}
+
+#car_list img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 2%;
+    object-fit: cover;
+}
